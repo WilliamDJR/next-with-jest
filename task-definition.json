@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "next-with-jest",
-            "image": "***.dkr.ecr.ap-southeast-2.amazonaws.com/next-with-jest:c5653406ce8a4bb6fbe0896717ff75e8cf928b8a",
+            "image": "***.dkr.ecr.ap-southeast-2.amazonaws.com/next-with-jest:xxxx",
             "cpu": 0,
             "portMappings": [
                 {
