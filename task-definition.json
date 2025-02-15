@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "sample-fargate-app",
-            "image": "975050135764.dkr.ecr.ap-southeast-2.amazonaws.com/next-with-jest:xxx",
+            "image": "***.dkr.ecr.ap-southeast-2.amazonaws.com/next-with-jest:c5653406ce8a4bb6fbe0896717ff75e8cf928b8a",
             "cpu": 0,
             "portMappings": [
                 {
