@@ -3,5 +3,5 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <h1 style="text-align: center; color: red;">Changed something</h1>;
+  return <h1 style={{ textAlign: "center", color: "red" }}>Changed something</h1>;
 }
