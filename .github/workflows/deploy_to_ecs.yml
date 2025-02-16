@@ -18,6 +18,19 @@ permissions:
   contents: read
 
 jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Build Docker image
+      run: npm ci
+
+    - name: Run tests
+      run: npm test
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
