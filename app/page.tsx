@@ -3,6 +3,5 @@ export const metadata = {
 };
 
 export default function Page() {
-  <h1>App Router</h1>
-  <p>Added something</p>
+  return <h1 style="text-align: center; color: red;">Changed something</h1>;
 }
